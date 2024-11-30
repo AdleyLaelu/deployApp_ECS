@@ -51,7 +51,8 @@ mkdir terraform-ecs
 cd terraform-ecs
 
 
-
+```
+ws
 
 
 
