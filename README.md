@@ -51,30 +51,6 @@ mkdir terraform-ecs
 cd terraform-ecs
 
 
-```
-ws
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Access Your Application: Now that you have the ALB DNS name, you can access your application by entering the URL in your browser:
 http://nginx-alb-997509351.us-east-1.elb.amazonaws.com
