@@ -13,6 +13,10 @@
 3. **Terraform**: Install [Terraform](https://www.terraform.io/downloads.html) on your machine.
 4. **AWS CLI**: Install and configure the [AWS CLI](https://aws.amazon.com/cli/).
 - download Docker, AWS CLI
+VPC, Subnets, and Route Table: Create a network for our application.
+Security Group: Opens HTTP (port 80) to allow traffic to reach the application.
+ALB, Target Group, and Listener: Route traffic to the ECS service.
+ECS Cluster, Task Definition, and Service: Deploy and manage the Nginx container.
 
 ## Steps to Run Locally
 1. Build the Docker image: `docker build -t simple-nginx-app 
@@ -50,6 +54,7 @@ First, create a directory to hold all your Terraform files:
 mkdir terraform-ecs
 cd terraform-ecs
 
+```
 
 
 Access Your Application: Now that you have the ALB DNS name, you can access your application by entering the URL in your browser:
