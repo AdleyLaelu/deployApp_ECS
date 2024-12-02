@@ -65,7 +65,7 @@ push
 - my-ecr-repo, nginx-cluster, nginx-service, nginx-task, nginx-container
   
   
-  Go to github secrets
+  Go to github secrets and insert
   AWS_ACCESS_KEY_ID (Your AWS Access Key)
 AWS_SECRET_ACCESS_KEY (Your AWS Secret Key)
 AWS_REGION (e.g., us-east-1)
@@ -74,6 +74,7 @@ ECS_CLUSTER_NAME (Your ECS cluster name)
 ECS_SERVICE_NAME (Your ECS service name)
 TASK_DEFINITION (Your ECS task definition name)
 
+paste and create .yml
 
 
 
