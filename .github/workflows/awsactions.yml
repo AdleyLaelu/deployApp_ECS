@@ -38,7 +38,9 @@ env:
   CONTAINER_NAME: ${{ vars.CONTAINER_NAME }}
 
 permissions:
-  contents: read
+      id-token: write   # This is required for requesting the JWT
+      contents: read 
+
 
 jobs:
   deploy:
