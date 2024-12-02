@@ -59,3 +59,26 @@ cd terraform-ecs
 
 Access Your Application: Now that you have the ALB DNS name, you can access your application by entering the URL in your browser:
 http://nginx-alb-997509351.us-east-1.elb.amazonaws.com
+push
+- create ECR in AWS: with console or code
+- get your ecs service name and ecs cluster name, name of ecs task-definition, and container-name
+- my-ecr-repo, nginx-cluster, nginx-service, nginx-task, nginx-container
+  
+  
+  Go to github secrets
+  AWS_ACCESS_KEY_ID (Your AWS Access Key)
+AWS_SECRET_ACCESS_KEY (Your AWS Secret Key)
+AWS_REGION (e.g., us-east-1)
+ECR_REPOSITORY (Your ECR repository URL, e.g., 123456789012.dkr.ecr.us-east-1.amazonaws.com/nginx-app)
+ECS_CLUSTER_NAME (Your ECS cluster name)
+ECS_SERVICE_NAME (Your ECS service name)
+TASK_DEFINITION (Your ECS task definition name)
+
+
+
+
+
+
+
+
+
