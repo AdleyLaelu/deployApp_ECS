@@ -31,11 +31,11 @@ on:
     branches: [ "main" ]
 
 env:
-  AWS_REGION: ${{ env.AWS_REGION }}
-  ECR_REPOSITORY: ${{ env.ECR_REPOSITORY }}
-  ECS_SERVICE: ${{ env.ECS_SERVICE }}
-  ECS_CLUSTER: ${{ env.ECS_CLUSTER }}
-  CONTAINER_NAME: ${{ env.CONTAINER_NAME }}
+  AWS_REGION: us-east-1
+  ECR_REPOSITORY: my-ecr-repo
+  ECS_CLUSTER: nginx-cluster
+  ECS_SERVICE: nginx-service
+  CONTAINER_NAME: nginx-container
 
 permissions:
       id-token: write   # This is required for requesting the JWT
